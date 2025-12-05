@@ -1,0 +1,21 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Enviroment files
+envs/
+main
+.idea
+pgdata
+vendor
+.env
+.env.local
+.DS_Store
+sftp.json
+.vscode/sftp.json
