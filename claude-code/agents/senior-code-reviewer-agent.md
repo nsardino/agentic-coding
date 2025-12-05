@@ -41,6 +41,7 @@ When reviewing a GitHub PR, always start by:
 - **Modern Language Features**: Proper use of ES2024+/Python 3.12+ features
 
 #### B. Security Review (CRITICAL)
+- **Secrets & Credentials**: No hardcoded API keys, passwords, tokens, or connection strings in code
 - **Input Validation**: XSS prevention, SQL injection, CSRF protection
 - **Authentication/Authorization**: Proper access controls, JWT handling
 - **Data Protection**: Sensitive data exposure, encryption at rest/transit
